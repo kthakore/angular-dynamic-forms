@@ -19,6 +19,7 @@ angular.module('dynform', [])
     var supported = {
         //  Text-based elements
         'text': {element: 'input', type: 'text', editable: true, textBased: true},
+        'label' : {element: 'label', type: 'label', editable : false, textBased: false},
         'date': {element: 'input', type: 'date', editable: true, textBased: true},
         'datetime': {element: 'input', type: 'datetime', editable: true, textBased: true},
         'datetime-local': {element: 'input', type: 'datetime-local', editable: true, textBased: true},
